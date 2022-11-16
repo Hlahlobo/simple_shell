@@ -92,7 +92,7 @@ typedef struct passinfo
 	char **cmd_buf; /* pointer to cmd ; chain buffer, for memory mangement */
 	int cmd_buf_type; /* CMD_type ||, &&, ; */
 	int readfd;
-	int histcount
+	int histcount;
 } info_t;
 
 #define INFO_INIT \
